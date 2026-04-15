@@ -371,12 +371,12 @@ export default function App() {
             <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-12">Competências</h2>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'Organização e planejamento',
-                'Gestão de cronogramas',
-                'Comunicação',
-                'Trabalho em equipe',
-                'Resolução de problemas',
-                'Organização de processos'
+                'Organização e planejamento de atividades',
+                'Gestão de cronogramas e prazos',
+                'Comunicação clara e alinhamento de equipes',
+                'Colaboração e trabalho em equipe',
+                'Resolução de problemas no dia a dia',
+                'Organização e melhoria de processos'
               ].map((skill, i) => (
                 <span 
                   key={i} 
@@ -397,10 +397,10 @@ export default function App() {
             <FadeIn>
               <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-6">Vamos Conversar</h2>
               <h3 className="text-4xl font-bold text-dark mb-6">
-                Pronta para novos desafios em projetos.
+                Pronta para novos desafios e oportunidades na área de projetos.
               </h3>
               <p className="text-lg text-muted mb-10">
-                Se você busca uma profissional dedicada, organizada e com experiência prática em apoio a projetos, entre em contato.
+                Aberta a novas oportunidades para conversarmos e construirmos algo juntos.
               </p>
               
               <div className="flex flex-col gap-6">
